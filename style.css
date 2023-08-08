@@ -66,7 +66,7 @@ p {
   align-items: center;
   background-color: #111111;
   padding: 1rem;
-  
+  overflow-y: hidden;
 }
 
 .introducao-img::-webkit-scrollbar {
@@ -77,8 +77,6 @@ p {
   background: #ffbb00;
   border-radius: 5px;
 }
-
-
 
 .introducao-img img{
     height: 25rem;
