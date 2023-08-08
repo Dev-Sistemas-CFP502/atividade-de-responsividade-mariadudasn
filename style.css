@@ -9,7 +9,6 @@
 }
 
 body {
-
   font-family: Arial, Helvetica, sans-serif;
   background-color: #111;
   padding: 1rem;
@@ -30,6 +29,7 @@ p {
 
 .menu ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
   margin: 2rem;
@@ -148,3 +148,18 @@ p {
   font-size: 2rem;
 }
 
+@media screen and (max-width: 740px){
+  .conteudo{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+  }
+  .vantagens{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+  }
+  .vantagens-titulo{
+    br
+  }
+}
