@@ -165,3 +165,14 @@ p {
     margin: 0 auto;
   }
 }
+
+@media screen and (max-width: 600px){
+  .header{
+    font-size: 1.5rem;
+  }
+  .menu a {
+    padding: 0.7rem 1rem;
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+}
