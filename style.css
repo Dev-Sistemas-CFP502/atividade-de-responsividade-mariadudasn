@@ -174,4 +174,24 @@ p {
     padding: 0.7rem 1rem;
     font-size: 15px;
   }
+  .introducao h2 {
+    font-size: 3rem;
+  }  
+  p {
+    font-size: 1rem;
+    line-height: 1;
+  }
+  .introducao-img img{
+    height: 20rem;
+  }
+  .vantagens-titulo{
+    font-size: 2.5rem;
+    letter-spacing: 1.5px;
+  }
+  .vantagens h3{
+    font-size: 1rem;
+  }
+  .red{
+    font-size: 1.5rem;
+  }
 }
