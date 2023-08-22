@@ -9,7 +9,6 @@
 }
 
 body {
-
   font-family: Arial, Helvetica, sans-serif;
   background-color: #111;
   padding: 1rem;
@@ -30,6 +29,7 @@ p {
 
 .menu ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
   margin: 2rem;
@@ -66,7 +66,7 @@ p {
   align-items: center;
   background-color: #111111;
   padding: 1rem;
-  
+  overflow-y: hidden;
 }
 
 .introducao-img::-webkit-scrollbar {
@@ -77,8 +77,6 @@ p {
   background: #ffbb00;
   border-radius: 5px;
 }
-
-
 
 .introducao-img img{
     height: 25rem;
@@ -150,3 +148,149 @@ p {
   font-size: 2rem;
 }
 
+@media screen and (max-width: 900px){
+  .vantagens{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+  }
+  .vantagens-titulo{
+    text-align: center;
+    max-width: 40rem;
+    margin: 0 auto;
+  }
+  .header{
+   font-size: 1.8rem;
+  }
+  .introducao h2 {
+   font-size: 3.6rem;
+  } 
+}
+
+@media screen and (max-width: 740px){
+  .conteudo{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+  }
+  .vantagens-titulo{
+    text-align: center;
+    max-width: 30.5rem;
+    margin: 0 auto;
+  }
+  .header{
+    font-size: 1.6rem;
+   }
+   .introducao h2 {
+    font-size: 3.4rem;
+   } 
+}
+
+@media screen and (max-width: 600px){
+  .header{
+    font-size: 1.3rem;
+  }
+  .menu a {
+    padding: 0.7rem 1rem;
+    font-size: 14px;
+  }
+  .introducao h2 {
+    font-size: 2.6rem;
+  }  
+  p {
+    font-size: 1rem;
+    line-height: 1;
+  }
+  .introducao-img img{
+    height: 20rem;
+  }
+  .vantagens-titulo{
+    font-size: 2.3rem;
+    letter-spacing: 1.5px;
+  }
+  .vantagens h3{
+    font-size: 0.9rem;
+  }
+  .red{
+    font-size: 1.5rem;
+  }
+  .botao {
+    padding: 0.8rem 1.5rem;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .header{
+    font-size: 1.3rem;
+  }
+  .menu a {
+    padding: 0.6rem 0.9rem;
+    font-size: 12px;
+  }
+  .introducao h2 {
+    font-size: 2.6rem;
+  }  
+  p {
+    font-size: 0.9rem;
+    line-height: 1.2;
+  }
+  .introducao-img img{
+    height: 16rem;
+  }
+  .vantagens-titulo{
+    font-size: 2rem;
+    letter-spacing: 1.4px;
+  }
+  .vantagens h3{
+    font-size: 0.9rem;
+  }
+  .red{
+    font-size: 1.3rem;
+  }
+  .botao {
+    padding: 0.6rem 1.3rem;
+    font-size: 14px;
+  }
+  span{
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 370px){
+  .header{
+    font-size: 1rem;
+  }
+  .introducao h2 {
+    font-size: 1.8rem;
+  }
+  span{
+    font-size: 12px;
+  }
+  .menu a {
+    padding: 0.5rem 0.7rem;
+    font-size: 10px;
+  }
+  .botao {
+    padding: 0.5rem 0.7rem;
+    font-size: 10px;
+  }
+  p {
+    font-size: 0.8rem;
+    line-height: 1;
+  }
+  .introducao-img img{
+    height: 13rem;
+  }
+  .vantagens-titulo{
+    font-size: 1.5rem;
+  }
+  .vantagens h3{
+    font-size: 0.7rem;
+  }
+  .red{
+    font-size: 1rem;
+  }
+  .botao {
+    padding: 0.5rem 1.1rem;
+  }
+}
